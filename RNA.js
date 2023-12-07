@@ -21,7 +21,7 @@ class Neuron {
 g(signalList = []);{
     let u = 0;
 
-    for (let i = 0; i < this.weightList.lenght; i++) {
+    for (let i = 0; i < this.weightList.length; i++) {
         u += signalList[i] * this.weightList[i]
     }
 
